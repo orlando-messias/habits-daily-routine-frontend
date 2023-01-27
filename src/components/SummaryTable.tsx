@@ -1,5 +1,5 @@
 import { generateDatesFromYearBeginning } from "../utis/generate-dates-from-year-beginning";
-import { HabbitDay } from "./HabbitDay";
+import { HabitDay } from "./HabitDay";
 
 const weekDays = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
 
@@ -25,7 +25,7 @@ export function SummaryTabel() {
 
       <div className="grid grid-rows-7 grid-flow-col gap-3">
         {summaryDates.map(date => {
-          return <HabbitDay key={date.toString()} />
+          return <HabitDay key={date.toString()} completed={4} amount={5} />
         })}
 
         {amountOfDatesToFill > 0 && Array.from({ length: amountOfDatesToFill }).map((_, i) => {

@@ -52,7 +52,7 @@ export function SummaryTabel() {
             <HabitDay
               key={date.toString()}
               date={date}
-              completed={dayInSummary?.completed}
+              defaultCompleted={dayInSummary?.completed}
               amount={dayInSummary?.amount}
             />
           )

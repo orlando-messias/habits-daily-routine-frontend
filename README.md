@@ -20,55 +20,34 @@ This project was developed using the following technologies:
 
 ## 🚀 Getting started
 
+### Web
 Clone the entire project.
 
 ```bash
-$ git clone https://github.com/orlando/habits.git
-$ cd nlw-setup-ignite
-```
+$ git clone https://github.com/orlando-messias/habits-daily-routine-frontend.git
 
-Follow the steps below:
-
-### Web
-
-```bash
 # Install the web dependencies
-$ cd web
 $ npm install
 
 # Start the web project
-$ npm start
-```
-
-### Server
-
-```bash
-# Install the server dependencies
-$ cd server
-$ npm install
-
-# Start the server project
-$ npx prisma migrate deploy
 $ npm run dev
 ```
 
-### Mobile
+### Server
+Clone and starts de backend at 
 
 ```bash
-# Install the mobile dependencies
-$ cd mobile
+# Install the server dependencies
 $ npm install
 
-# Start the mobile project
-$ npm start
+# Start the server project
+$ npm run dev
 ```
 
 ## 🔖 Layout
 
 You can view the project layout through the links below:
 
-- [Layout](<https://www.figma.com/file/pJpaMSKVfCmPUMZJOVwquQ/Habits-(i)-(Community)?node-id=6%3A344&t=1UcC6dIPVGBxdhpz-1>)
-
-Remembering that you need to have a [Figma](http://figma.com/) account to access it.
+- [Layout](https://www.figma.com/file/shRNGnRp9ZaWPveFyaINcX/Habits?t=dBE6NT9OPCFJyHJn-0)
 
 ---
